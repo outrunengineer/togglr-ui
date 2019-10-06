@@ -70,6 +70,18 @@
 
       <v-container fluid>
         <v-layout row wrap>
+          <v-flex xs12>Canary Rollout</v-flex>
+          <v-flex xs12>
+            <v-slider
+              label="% Users"
+              thumb-label="always"
+            ></v-slider>
+          </v-flex>
+        </v-layout>
+      </v-container>
+
+      <v-container fluid>
+        <v-layout row wrap>
           <v-flex xs12>Negation</v-flex>
           <v-flex xs12>
             <v-switch
