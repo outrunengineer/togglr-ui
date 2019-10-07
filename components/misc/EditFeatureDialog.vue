@@ -75,6 +75,7 @@
             <v-slider
               label="% Users"
               thumb-label="always"
+              v-model="editFeatureDialog.feature.canaryPct"
             ></v-slider>
           </v-flex>
         </v-layout>

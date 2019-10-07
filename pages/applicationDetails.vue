@@ -313,7 +313,8 @@ export default {
             appId: this.appDetails.payload.id,
             active: false,
             id: 0,
-            negation: false
+            negation: false,
+            canaryPct: 0
           });
           this.featureName = "";
           this.featureKey++;
